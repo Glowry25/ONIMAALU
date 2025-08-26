@@ -494,7 +494,7 @@ body {
     flex-direction: column;
   }
   hr {
-    max-width: 100%;
+    max-width: 80%;
   }
   .about {
     margin-left: 30px;
@@ -542,32 +542,33 @@ body {
   }
   .testimonials {
     flex-direction: column;
-    max-width: 100%;
   }
   .footer {
     max-width: 100%;
+    padding-left: 30px;
   }
   .footer-subtext {
     flex-direction: column;
-    padding-right: 200px;
   }
   .quick {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    padding-right: -100px;
   }
   .information {
     display: flex;
     padding-left: 50px;
+    width: 500px;
   }
   .information span {
     display: flex;
     justify-content: stretch;
+    width: 500px;
   }
   .logo2 {
     align-items: center;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 }
